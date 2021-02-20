@@ -12,7 +12,7 @@ import java.util.Optional;
  * @autor Darío
  */
 @Service
-class ClienteService implements IClienteService {
+public class ClienteService implements IClienteService {
     //inyeccion de dependencias
     @Autowired //estara siempre disponible en el service
     private IClienteRepository clienteRepo;
